@@ -9,7 +9,7 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 import yaml
 
-config_path = 'YOUR PATH ... /config.yml'
+config_path = 'config.yml'
 with open(config_path) as c:
     configs = yaml.safe_load(c)
 
