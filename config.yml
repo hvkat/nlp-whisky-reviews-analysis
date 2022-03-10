@@ -1,0 +1,8 @@
+data_path: 'data/japanese_whisky_review.csv'
+polarity_limit_lower: -.1                                                       # limiters for creating polarity classes ranges: negative, neutral, positive from general polarity range <-1,1>
+polarity_limit_upper: .1
+stopwords_polarity: {'really', 'whisky','Review_Content','dtype','https'}       # additional stopwords for word clouds based on polarity classification
+subjectivity_limit: .1                                                          # limiter for creating subjectivity classes ranges: objective, subjective from general subjectivity range <0,1>
+stopwords_subjectivity: {'dtype','Review_Content'}                              # additional stopwords for word clouds based on subjectivity classification
+
+
